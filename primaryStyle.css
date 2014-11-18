@@ -2,7 +2,7 @@
 
 #header {
 	width:100%;
-	background: rgba(255,255,255, .50);
+	background: rgba(255,255,255, .65);
 	position:fixed;
 	white-space:nowrap;
 	z-index:10;
@@ -125,7 +125,7 @@
 #footer {
 	height:80px;
 	width:100%;
-	background: rgba(255,255,255, .50);
+	background: rgba(255,255,255, .65);
 	z-index:10;
 	position:relative;
 	margin-top:-80px;
