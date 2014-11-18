@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.footStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	
+    list-style:none;
+    margin:0 20px 0 20px;
+    padding:0;
+    text-align:center;
+	background-color: #282828;
+	vertical-align:bottom;		/*So the icons don't stick to the top of footer*/
+}
+
+.footStyle li{
+    display:inline;
+	text-decoration:  none;
+	padding:5px 30px 5px 30px;
+	vertical-align:bottom;
+}
+
+.footStyle a{
+    display:inline-block;
+	text-decoration:  none;
+	/*margin:10px 10px 10px 10px;*/
+	vertical-align:bottom;
+}
+
+.footStyle a:hover   {
+  text-decoration:  underline;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Hey there, welcome to my source code! If you see anything weird in here that should be improved, please let me know! <3 -->
+
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39357949-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Nathan Yim" content="A hub for Nathan Yim's personal and professional presence on the web." />
+    <title>Nathan Yim</title>
+    <link rel="shortcut icon" href="/images/NYsmall.png" >
+
+    <!--Custom CSS-->
+    <link href="/primaryStyle.css" rel="stylesheet" type="text/css" />
+
+    <!--jQuery-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    
+    <!--jQuery Plugins & CSS-->
+    <!--Bootstrap-->
+    <link href="/Plugins/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="/Plugins/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+    <!--Smooth-Scroll-->
+    <script src="/Plugins/smooth-scroll.js"></script>
+    <!--Font-Awesome-->
+    <link href="/Plugins/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div id="page">
+
+        <div id="header">
+
+            <a data-scroll href="#intro">
+            <img src="http://www.nathanyim.com/images/NathanYimTitleNameGrey.png" id="TitleName">
+            </a>
+
+            <ul class="nav nav-pills" id="primaryNav">
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a data-scroll href="#intro">Intro</a></li>
+                        <li><a data-scroll href="#background">Background</a></li>
+                        <li><a data-scroll href="#interests">Interests</a></li>
+                    </ul>
+                </li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/Nathan_Yim_Resume.pdf">Resumé</a></li>
+            </ul>
+            
+            <ul class="nav nav-pills" id="secondaryNav">
+                <li class="dropdown active">
+                    <div>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="" id="hamburger">
+                        <span class="glyphicon glyphicon-th-list"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li role="presentation" class="dropdown-header">About</li>
+                        <li><a data-scroll href="#intro" class="dropdown-item">Intro</a></li>
+                        <li><a data-scroll href="#background" class="dropdown-item">Background</a></li>
+                        <li><a data-scroll href="#interests" class="dropdown-item">Interests</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a data-scroll href="/projects" class="dropdown-item">Projects</a></li>
+                        <li><a data-scroll href="/contact" class="dropdown-item">Contact</a></li>
+                        <li><a data-scroll href="/Nathan_Yim_Resume.pdf" class="dropdown-item">Resumé</a></li>
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        
+        </div>
+
+        <div id="main">
+                
+                <div id="intro" class="module">
+
+                    <img src="/images/PalmDriveFull.jpg" class="jumboImage"/>
+                    <div class="textBox">
+                        <p class="textBoxTitle">Hi, I'm Nathan</p>
+                        <p class="textBoxText">
+                            I study <span class="highlight">Systems Design Engineering</span> at the University of Waterloo. I'm passionate about learning and I constantly strive to satisfy my curiosity. I want to gain a deeper understanding of the world and use my energy to design and actualize solutions to the problems of tomorrow.
+                        </p>
+                        <p class="textBoxText">
+                            I built this site as a hub for my personal and professional presence on the web. I welcome you to explore it and get to know me a little. Hit me up!
+                        </p>
+                    </div>
+                    
+                    <div id="speechBubble">
+                    </div>
+                    
+                    <div id="speechBubbleTrigger">
+                    </div>
+
+                    <div class="arrow-up"></div>
+
+                    <div class="underText">
+                        <p>
+                            I study <span class="highlight">Systems Design Engineering</span> at the University of Waterloo. I'm passionate about learning and I constantly strive to satisfy my curiosity. I want to gain a deeper understanding of the world and use my energy to design and actualize solutions to the problems of tomorrow.
+                        </p>
+                        <p>
+                            I built this site as a hub for my personal and professional presence on the web. I welcome you to explore it and get to know me a little. Hit me up!
+                        </p>
+                    </div>
+
+                </div>
+                
+                <div id="background" class="module">
+                    <img src="/images/GoldenGateFull.jpg" class="jumboImage"/>
+                    <div class="textBox">
+                        <p class="textBoxTitle">Background</p>
+                        <p class="textBoxText">
+                            <i>What's your favourite subject?</i> I can't answer that. I originally entered uWaterloo pursuing a degree in Computer Science, but made the decision to switch majors to Systems Design midway through second year. I've since strengthened my programming skills (<span class="highlight">JavaScript, HTML/CSS, Java, SQL</span>) and have found a love and appreciation for <span class="highlight">data and analytics</span>. The latter was gained while interning at <span class="highlight">A9.com</span> (an Amazon subsidiary). I've attained a deep understanding of user experience needs through other experiences interning in the mobile application industry (<span class="highlight">Xtreme Labs</span>, <span class="highlight">Zynga</span>). Studying Systems Design has truly nurtured my appetite for taking on problems with a holistic approach.
+                        </p>
+                    </div>
+
+                    <div class="arrow-up"></div>
+
+                    <div class="underText">
+                        <p>
+                            <i>What's your favourite subject?</i> I can't answer that. I originally entered uWaterloo pursuing a degree in Computer Science, but made the decision to switch majors to Systems Design midway through second year. I've since strengthened my programming skills (<span class="highlight">JavaScript, HTML/CSS, Java, SQL</span>) and have found a love and appreciation for <span class="highlight">data and analytics</span>. The latter was gained while interning at <span class="highlight">A9.com</span> (an Amazon subsidiary). I've attained a deep understanding of user experience needs through other experiences interning in the mobile application industry (<span class="highlight">Xtreme Labs</span>, <span class="highlight">Zynga</span>). Studying Systems Design has truly nurtured my appetite for taking on problems with a holistic approach.
+                        </p>
+                    </div>
+
+                </div>
+                
+                <div id="interests" class="module">
+                    <img src="/images/OystersFull.jpg" class="jumboImage"/>
+                    <div class="textBox">
+                        <p class="textBoxTitle">My Interests</p>
+                        <p class="textBoxText">
+                            I love the creative arts. Music, drawing, reading, writing, film, and photography are all pastimes I induldge in with my spare time. I'm an avid gamer. I do my best to stay fit and really enjoy camping, playing Ultimate Frisbee, and going to the gym.
+                        </p>
+                        <p class="textBoxText">
+                            I like to tinker. I like to keep myself busy. I guess that's why I ended up in engineering!
+                        </p>
+                    </div>
+
+                    <div class="arrow-up"></div>
+
+                    <div class="underText">
+                        <p>
+                            I love the creative arts. Music, drawing, reading, writing, film, and photography are all pastimes I induldge in with my spare time. I'm an avid gamer. I do my best to stay fit and really enjoy camping, playing Ultimate Frisbee, and going to the gym.
+                        </p>
+                        <p>
+                            I like to tinker. I like to keep myself busy. I guess that's why I ended up in engineering!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a data-scroll href="#intro" id="toTop">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <div id="socialMedia">
+                <a href="http://www.linkedin.com/in/nathanyim" target="_blank"><div class="mediaIcon"><i class="fa fa-linkedin-square"></i></div></a>
+                <a href="https://www.facebook.com/yim.nathan" target="_blank"><div class="mediaIcon"><i class="fa fa-facebook-square"></i></div></a>
+                <a href="https://twitter.com/NathanYim" target="_blank"><div class="mediaIcon"><i class="fa fa-twitter-square"></i></div></a>
+                <a href="mailto:nayim@uwaterloo.ca" target="_blank"><div class="mediaIcon"><i class="fa fa-envelope-square"></i></div></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script>
+        smoothScroll.init();
+    </script>
+</footer>
+
+</html>
